@@ -1,0 +1,22 @@
+{
+  "name": "notescardapp",
+  "version": "1.0.0",
+  "description": "a basic notes taking app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon index.js"
+  },
+  "keywords": [
+    "node.js",
+    "javascript",
+    "express.js",
+    "mern"
+  ],
+  "author": "suraj kumar",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.1"
+  }
+}
