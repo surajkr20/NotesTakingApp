@@ -1,0 +1,2 @@
+One-Way Function: bcrypt is purposely designed to prevent reverse-engineering, so it doesn’t produce hashes that can be decrypted back into the original data.
+Security Intent: The goal of bcrypt is to securely protect passwords by making it computationally intensive to guess the original password, even if the hash is compromised.

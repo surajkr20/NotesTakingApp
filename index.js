@@ -34,7 +34,7 @@ app.post('/edit',(req, res)=>{
     fs.rename(`./files/${req.body.prev}`,`./files/${req.body.new}`,(err)=>{
         res.redirect('/')
     })
-    console.log(req.body)
+    // console.log(req.body) // for log current prev and new 
 })
 
 app.post('/create',(req, res)=>{
@@ -42,7 +42,6 @@ app.post('/create',(req, res)=>{
         res.redirect('/');
     })
 })
-
 
 app.listen(3000,()=>{
     console.log('server started at port 3000..')
